@@ -55,9 +55,13 @@ function draw() {
   if (World.frameCount % 100 == 0) {
     if (select_balloon == 1) {
       redBalloon();
-      blueBalloon();
+      } else if (select_balloon == 2) {
       greenBalloon();
+    } else if (select_balloon == 3) {
+      blueBalloon();
+    } else {
       pinkBalloon();
+    
 
     }
   }
